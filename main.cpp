@@ -73,8 +73,3 @@ bool isPrime(int number)
     return true;
 }
 
-// get a number,  break it down in prime factors
-// to do that, divide the number by 2, 3, 4 ... all the way to  the square root of the number
-// check the result of the division for a prime number
-// if it is, assign it to a variable for future use (to add up prime factors)
-// if it isn't, repeat the process
