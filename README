@@ -6,3 +6,8 @@ Need to format and comment the code to improve readability.
 Maybe find a more efficient way to do certain things although I'm pretty sure this does the trick already.
 
 Moooooh. Moooh Moooh Mooooh. Moooh. Moooooooh. Mooh.
+
+Bugs:
+Program only gives the sum of DISTINCT prime factors. 
+Need to change the loop so it gets the sum of ALL prime factors. (done by resetting the loop counter?)
+Also, optimization of the loop can be done by changing the for-condition to run until the square root of "result", which gets smaller by every iteration.
