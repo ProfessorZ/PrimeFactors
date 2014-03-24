@@ -46,7 +46,7 @@ bool primefactors(int number)
     {
         return false;
     }
-    for(int i = 2; i <= sqrt(number); i++)
+    for(int i = 2; i <= sqrt(result); i++)
     {
         while(result%i == 0)
         {
