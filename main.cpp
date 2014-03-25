@@ -26,7 +26,7 @@ int main()
     {
         if(primefactors(i))
         {
-            cout << i << endl; //output 'i'
+            cout << "Number:" << i << endl; //output 'i'
         }
 
     }
@@ -42,11 +42,7 @@ bool primefactors(int number)
     int result = 0;
     result = number;
 
-    if(isPrime(number))
-    {
-        return false;
-    }
-    for(int i = 2; i <= sqrt(result); i++)
+    for(int i = 2; i <= number; i++)
     {
         while(result%i == 0)
         {
@@ -54,8 +50,9 @@ bool primefactors(int number)
             result /= i;
         }
     }
-    if(isPrime(sumOfFactors))
+    if(isPrime(sumOfFactors) || isPrime(number))
         {
+        cout << "-Sum: " << sumOfFactors;
         return true;
         }
     return false;
